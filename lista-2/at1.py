@@ -1,6 +1,7 @@
-numero = int(input("digite qualquer número"))
-r=numero % 2
-if r==0:
-    print('o numero {} que voce digitou é par'.format(numero))
+n1 = int(input("digite um número: "))
+n2 = int(input("digite outro número número: "))
+if n1 > n2:
+    print("o maior número é: ",n1)
 else:
-    print('o numero {} que você digitou é impar'.format(numero))
+    print("o maior número é: ",n2)
+    

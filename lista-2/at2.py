@@ -1,7 +1,5 @@
-km = float(input('digite a distancia em km: '))
-if km <= 200:
-    valor1 = km*0.50
-    print(" você vai pagar R${}".format(valor1))
+v1 = float(input("digite um número: "))
+if v1 < 0:
+    print("Seu número (",v1,") é négativo.")
 else:
-    valor2 = km*0.45
-    print('voce vai pagar R${}'.format(valor2))
+    print("Seu número (",v1,") é positivo.")
