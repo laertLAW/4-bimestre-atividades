@@ -9,4 +9,8 @@ else:
     aumento = 5
 
 diferença = salario_atual * (aumento/100)
-nov = 
+nov = salario_atual + diferença
+print("Seu salário antes do reajuste era de R$",salario_atual)
+print("Seu salário foi aumentado em ",aumento,"%")
+print("Seu salário foi aumentado em R$",diferença)
+print("Seu salário atual é de R$",nov)
