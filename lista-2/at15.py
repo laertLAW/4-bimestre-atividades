@@ -9,3 +9,4 @@ if ((l1 + l2 > l3) and (l1 + l3 > l2) and (l2 + l3 > l1)):
         print("É um triângulo isoceles")
     else:
         print("Inválido")
+        
